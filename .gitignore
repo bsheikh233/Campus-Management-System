@@ -1,0 +1,14 @@
+# Compiled files
+*.exe
+*.o
+*.obj
+build/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
