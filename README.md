@@ -1,4 +1,4 @@
-# Campus Management System (Refactored)
+# Campus Management System 
 
 A modern C++ implementation of a Campus Management System using:
 - **OOP Principles** (Inheritance, Polymorphism, Encapsulation)
