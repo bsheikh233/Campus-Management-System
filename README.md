@@ -34,3 +34,7 @@ make
 ## Features Verified
 1. **Virtual Inheritance**: TA object is successfully created and managed as both Student and Teacher.
 2. **Persistence**: Run the app once to create data. Run it again to see data loaded and modified.
+
+## Development
+
+For information on using AI-assisted development tools like Claude Opus with GitHub Copilot in VS Code, see [DEVELOPMENT.md](DEVELOPMENT.md).
