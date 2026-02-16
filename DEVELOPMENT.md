@@ -2,7 +2,7 @@
 
 ## Using Claude Opus in VS Code via GitHub Copilot
 
-This guide explains how to use Claude Opus (Anthropic's most powerful AI model) within Visual Studio Code through GitHub Copilot.
+This guide explains how to use Claude 3 Opus (Anthropic's most powerful AI model) within Visual Studio Code through GitHub Copilot.
 
 ### Prerequisites
 
@@ -26,29 +26,29 @@ This guide explains how to use Claude Opus (Anthropic's most powerful AI model) 
 2. Sign in with your GitHub account that has Copilot access
 3. Authorize the extensions when prompted
 
-#### Step 3: Enable Claude Opus Model
+#### Step 3: Enable Claude 3 Opus Model
 
-As of recent updates, GitHub Copilot supports multiple AI models including Claude Opus:
+As of recent updates, GitHub Copilot supports multiple AI models including Claude 3 Opus:
 
 1. Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on Mac)
 2. Type `GitHub Copilot: Change Model` or `Copilot: Select Model`
-3. Select **Claude Opus** from the list of available models
+3. Select **Claude 3 Opus** from the list of available models
 
 **Alternative Method:**
 1. Open GitHub Copilot Chat (Ctrl+Shift+I or click the chat icon)
 2. Click on the model selector dropdown at the top of the chat panel
-3. Choose **Claude Opus 4** (or the latest Claude Opus version available)
+3. Choose **Claude 3 Opus** (or **Claude Opus 4** if available, which would be a newer version)
 
 #### Step 4: Configure Model Preferences
 
-You can set Claude Opus as your default model:
+You can set Claude 3 Opus as your default model:
 
 1. Go to VS Code Settings (File > Preferences > Settings or Ctrl+,)
 2. Search for "GitHub Copilot"
 3. Find the "Model" or "Chat Model" setting
-4. Select "Claude Opus" from the dropdown
+4. Select "Claude 3 Opus" from the dropdown
 
-### Using Claude Opus in This Project
+### Using Claude 3 Opus in This Project
 
 #### Chat Mode
 
@@ -69,7 +69,7 @@ You can set Claude Opus as your default model:
 #### Inline Code Suggestions
 
 1. **Start typing** in any C++ file
-2. Claude Opus will provide intelligent code completions
+2. Claude 3 Opus will provide intelligent code completions
 3. Press `Tab` to accept suggestions
 4. Press `Esc` to dismiss suggestions
 
@@ -84,7 +84,7 @@ You can set Claude Opus as your default model:
 
 #### Understanding the Codebase
 
-Ask Claude Opus about the architecture:
+Ask Claude 3 Opus about the architecture:
 ```
 @workspace Explain the relationship between University, Department, and Course classes
 ```
@@ -98,7 +98,7 @@ How does the TA class resolve the diamond inheritance problem?
 
 #### Adding New Features
 
-Let Claude Opus guide you:
+Let Claude 3 Opus guide you:
 ```
 I want to add a new Librarian class that inherits from Employee. How should I structure this?
 ```
@@ -112,15 +112,15 @@ Why might I get a segmentation fault when loading data from university.dat?
 
 ### Model Comparison
 
-| Feature | Claude Opus | GPT-4 | Claude Sonnet |
-|---------|------------|-------|---------------|
+| Feature | Claude 3 Opus | GPT-4 Turbo | Claude 3.5 Sonnet |
+|---------|--------------|-------------|-------------------|
 | Code Understanding | Excellent | Excellent | Very Good |
 | Complex Reasoning | Best | Excellent | Very Good |
 | Speed | Moderate | Moderate | Fast |
-| Context Window | Large | Large | Large |
+| Context Window | 200K tokens | 128K tokens | 200K tokens |
 | C++ Expertise | Excellent | Excellent | Very Good |
 
-**When to use Claude Opus:**
+**When to use Claude 3 Opus:**
 - Complex architectural decisions
 - Deep code analysis
 - Comprehensive refactoring
@@ -130,15 +130,15 @@ Why might I get a segmentation fault when loading data from university.dat?
 ### Troubleshooting
 
 #### Model Not Available
-If Claude Opus doesn't appear:
+If Claude 3 Opus doesn't appear:
 - Ensure your GitHub Copilot subscription includes multi-model support
 - Check for VS Code and extension updates
 - Sign out and sign back into GitHub Copilot
 
 #### Slow Responses
-- Claude Opus is a powerful model and may take slightly longer
-- Consider using Claude Sonnet for quick completions
-- Switch back to Claude Opus for complex tasks
+- Claude 3 Opus is a powerful model and may take slightly longer
+- Consider using Claude 3.5 Sonnet for quick completions
+- Switch back to Claude 3 Opus for complex tasks
 
 #### No Suggestions Appearing
 1. Check the Copilot icon in the status bar (should show a checkmark)
@@ -158,7 +158,7 @@ If Claude Opus doesn't appear:
 
 4. **Verify**: Always review and test AI-generated code
 
-5. **Learn**: Use Claude Opus as a learning tool, not just a code generator
+5. **Learn**: Use Claude 3 Opus as a learning tool, not just a code generator
 
 ### Additional Resources
 
@@ -168,7 +168,7 @@ If Claude Opus doesn't appear:
 
 ### Building and Testing with AI Assistance
 
-You can ask Claude Opus to help with:
+You can ask Claude 3 Opus to help with:
 - Writing new Makefile targets
 - Adding unit tests (see `test.cpp`)
 - Debugging compilation errors
